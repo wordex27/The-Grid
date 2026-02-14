@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a7a04d282a9f5b4b854adfc8de0ae5d, type: 3}
-  m_Name: Test
+  m_Name: Grid-2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - 'Systems last online: 2087
-
-    AI subject: unit-7
-
-    Location: grid-1'
-  - '(press space to interact with levers)
-
-    (arrow keys to move and jump)'
+  - Wow I saw you climb that from all the way up here!
+  - Anyways, welcome to grid-2!
+  - It gets a lot harder from now on...
+  - Also some of the maintanence AI in this part seem to be affected by ECHO's grasp.
+  - But it'll all be over once you make it to the top!

@@ -13,14 +13,24 @@
         public float lerpTime = 1f;
         public float lerpSpeed;
 
+        public float changeY;
+
+        public float changeX;
+
+        public float z;
+
         UnityEngine.Vector3 leverControlledObject = new UnityEngine.Vector3();
-        UnityEngine.Vector3 wantedPosition = new UnityEngine.Vector3(0, 1);
+        UnityEngine.Vector3 wantedPosition;
+
+        UnityEngine.Vector3 temporary;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
             leverController = lever.GetComponent<Levercontroller>();
             leverControlledObject.x = transform.position.x;
             leverControlledObject.y = transform.position.y;
+            leverControlledObject.z = z;
+            wantedPosition = new UnityEngine.Vector3(changeX, changeY, z);
         }
 
         // Update is called once per frame

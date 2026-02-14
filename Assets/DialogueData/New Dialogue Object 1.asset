@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a7a04d282a9f5b4b854adfc8de0ae5d, type: 3}
-  m_Name: Test
+  m_Name: New Dialogue Object 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - 'Systems last online: 2087
-
-    AI subject: unit-7
-
-    Location: grid-1'
-  - '(press space to interact with levers)
-
-    (arrow keys to move and jump)'
+  - Oh hey there!
+  - Welcome to the first level of the core, also called grid-1!
+  - You're climbing the tower!?
+  - Apparently a lot of the maintanence AI who were taken up further by ECHO never
+    made it back down.
+  - Oh well, good luck!
